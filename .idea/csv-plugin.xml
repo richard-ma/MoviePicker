@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/moviepicker/moviepicker/pipelines.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/moviepicker/moviepicker/settings.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

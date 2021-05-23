@@ -71,9 +71,10 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+ITEM_PIPELINES = {
 #    'moviepicker.pipelines.MoviepickerPipeline': 300,
-#}
+     'moviepicker.pipelines.MovieFirstPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -98,4 +99,4 @@ DOWNLOADER_MIDDLEWARES = {
 
 # MongoDB settings
 MONGO_URI = "mongodb://localhost:27017/"
-MONGO_DATABASE = "movie_first"
+MONGO_DATABASE = "movie"
