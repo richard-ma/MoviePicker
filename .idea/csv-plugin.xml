@@ -24,6 +24,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/moviepicker/moviepicker/spiders/bilibiliDocumentary.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/moviepicker/moviepicker/spiders/bilibilidocumentary.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/moviepicker/moviepicker/spiders/bilibilimovie.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/moviepicker/moviepicker/spiders/iqiyi.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
