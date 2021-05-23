@@ -11,10 +11,6 @@ class MovieFirstItem(scrapy.Item):
     site = scrapy.Field()
 
 
-class MovieFirstIqiyiItem(MovieFirstItem):
-    site = 'IQIYI'
-
-
 class MoviepickerItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
