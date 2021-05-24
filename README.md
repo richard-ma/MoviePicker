@@ -53,3 +53,14 @@
     2. Site (List)
     3. Score (List)
     
+## Douban API
+* URL: `https://movie.douban.com/j/subject_suggest?q=[keyword]`
+    * q=\[keyword\]
+* response
+    * title
+    * url
+    * year
+    * id [douban_id]
+* URL: `https://movie.douban.com/subject/[movie_id]/`
+    * `<strong class="ll rating_num" property="v:average">7.6</strong>`
+    
